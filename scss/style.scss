@@ -1,7 +1,14 @@
 @import 'bootstrap/bootstrap';
 @import 'bootstrap/variables';
 
-$font-primary: 'Poppins',Arial, sans-serif;
+@font-face {
+  font-family: 'KimJeongcheolMyoungjo';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulMyungjo-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-display: swap;
+}
+
+$font-primary: 'KimJeongcheolMyoungjo', 'Poppins', Arial, sans-serif;
 
 $white: #fff;
 $black: #000000;
